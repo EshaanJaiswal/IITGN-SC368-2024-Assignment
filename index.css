@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    background-image: url('./Assets/WhatsApp\ Image\ 2024-11-19\ at\ 7.44.33\ PM.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 120px 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .latest-posts .card {
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .latest-posts .card img {
+    border-radius: 8px;
+  }
+  
+  .latest-posts .card-body {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .latest-posts .card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .latest-posts .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  footer .social-links a:hover {
+    color: #ff7f50;
+  }
+  
